@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xiang 的主页</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, "Microsoft YaHei", sans-serif;
+      background: #0f1115;
+      color: #e6e8ee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .card {
+      background: #171a21;
+      border: 1px solid #262b36;
+      border-radius: 16px;
+      padding: 40px;
+      max-width: 520px;
+      width: 100%;
+      text-align: center;
+    }
+    .avatar {
+      width: 88px; height: 88px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #5b8cff, #22d3a6);
+      margin: 0 auto 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+      font-weight: 700;
+      color: #fff;
+    }
+    h1 { font-size: 26px; margin-bottom: 8px; }
+    .sub { color: #9aa4b2; font-size: 14px; margin-bottom: 24px; }
+    .tags { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-bottom: 24px; }
+    .tag {
+      font-size: 12px;
+      padding: 5px 12px;
+      border-radius: 20px;
+      background: rgba(91,140,255,.15);
+      color: #5b8cff;
+    }
+    .desc { font-size: 15px; line-height: 1.8; color: #c8d0dc; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">X</div>
+    <h1>你好，我是 Xiang</h1>
+    <div class="sub">大二学生 · 正在学 AI 编程</div>
+    <div class="tags">
+      <span class="tag">Python</span>
+      <span class="tag">HTML</span>
+      <span class="tag">AI 应用</span>
+    </div>
+    <p class="desc">
+      这是我的第一个网页。<br>
+      2026 年 10 月，我开始学着做点东西。
+    </p>
+  </div>
+</body>
+</html>
